@@ -1,9 +1,11 @@
+#pragma comment(lib, "Base64.lib")
+
 #include <string>
 #include <vector>
 #include <cassert>
 #include <fstream>
 
-#include "base64.h"
+#include <base64.h>
 int main()
 {
   {
